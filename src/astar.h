@@ -20,9 +20,11 @@ struct PathResult {
 
 class Solver {
 public:
+    //  construtor + metodo principal (executa o A*)
     Solver(const vector<vector<int>>& grid);
     PathResult findPath(const Position& start, const Position& goal) const;
 
+    //  Atributos + metodos privadas. 
 private:
     int numRows;
     int numCols;
@@ -34,7 +36,6 @@ private:
     int heuristic(const Position& a, const Position& b) const;
 };
 
-} // namespace astar
+}
 
-#endif // ASTAR_H
-
+#endif
