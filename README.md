@@ -98,26 +98,6 @@ O programa perguntará qual mapa usar (digite `1` para mapa determinístico ou `
 
 Você também pode executar o executável pré-compilado `astar.exe` caso ele esteja presente na raiz do repositório.
 
-## Build (produção)
-
-Não existe um processo de build/empacotamento para produção no repositório — é um aplicativo console simples que é distribuído como executável compilado.
-
-## Testes
-
-Não há testes automatizados (unit tests / integration tests) no repositório.
-
-## API / Backend
-
-Não aplicável — o projeto é um aplicativo console local sem servidor ou endpoints HTTP.
-
-## Banco de dados
-
-Não aplicável — não há persistência externa no código.
-
-## Autenticação
-
-Não aplicável — não existe mecanismo de autenticação no projeto.
-
 ## Desenvolvimento
 
 - Para modificar o algoritmo, edite `src/astar.cpp` e `src/astar.h`.
@@ -134,13 +114,6 @@ g++ -std=c++11 -Wall -Wextra -O2 src/main.cpp src/astar.cpp -o astar
 - Testes automatizados: ausentes.
 - Integrações: ausentes.
 
-## Roadmap
-
-Não foram encontradas evidências de backlog/itens planejados (issues, TODOs ou documentação de roadmap) no repositório.
-
-## Licença
-
-Nenhuma licença foi encontrada nos arquivos do repositório. Portanto, a licença não está especificada.
 
 ---
 
